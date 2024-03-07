@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+main {
+  background-color: #364863;
+  background-image: url(63c2231007fffed10c64be04_62b37049573d7e52603cafe8_6283c09ee40fd039633e1520_man-speaking-to-coworker.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 93vh;
+}
+nav,
+ul {
+  display: flex;
+  list-style: none;
+  background-color: white;
+  color: rgb(85, 84, 84);
+  justify-content: right;
+  height: 7vh;
+  align-items: center;
+  padding-right: 60px;
+  font-size: small;
+}
+#first {
+  position: relative;
+  right: 50vw;
+  font-size: medium;
+  color: rgb(88, 87, 87);
+}
+li {
+  padding: 0 4px;
+}
+
+#second {
+  padding: 20px 430px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.759);
+  font-family: "Roboto", sans-serif;
+  font-weight:lighter;
+  line-height: 25px;
+
+}
+h1 {
+  text-align: center;
+  color: #4cceff;
+  padding: 100px 50px 20px 50px;
+  font-weight: 900;
+}
+
+button {
+  position: relative;
+  left: 47vw;
+  background-color: white;
+  color: rgb(73, 73, 73);
+  width: 148px;
+  height: 42px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+button:hover{
+    transform: scale(1.1);
+
+}
